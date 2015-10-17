@@ -35,5 +35,5 @@ easy_install-2.7 fiona  shapely pyproj #Those dont work with pip on uberspace fo
 ##Set library paths
 
 ```bash
-export LD_LIBRARY_PATH=$HOME/lib/:$LD_LIBRARY_PATH
+echo "export LD_LIBRARY_PATH=$HOME/lib/:$LD_LIBRARY_PATH" >> .bash_profile 
 ```
