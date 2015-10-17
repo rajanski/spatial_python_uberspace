@@ -1,4 +1,4 @@
-# spatial_python_uberspace
+# Spatial Python on uberspace
 How to get fiona, shapely and other spatial python packages running on uberspace
 
 ## geos, proj, gdal
