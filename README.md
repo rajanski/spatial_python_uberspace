@@ -33,3 +33,8 @@ easy_install-2.7 shapely #ä Doesnt work with pip for permission reasons
 pip2.7 install fiona pyproj
 
 ```
+##Set library paths
+
+```bash
+export LD_LIBRARY_PATH=/home/plkt/lib/:$LD_LIBRARY_PATH
+```
