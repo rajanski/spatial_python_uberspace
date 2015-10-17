@@ -29,8 +29,8 @@ make && make install
 ##Shapely, Fiona and pyproj
 
 ```python
-easy_install-2.7 shapely #ä Doesnt work with pip for permission reasons
-pip2.7 install fiona pyproj
+easy_install-2.7 shapely pyproj #Those dont work with pip on uberspace for permission or otherreasons
+pip2.7 install fiona 
 
 ```
 ##Set library paths
