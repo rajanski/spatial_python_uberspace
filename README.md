@@ -21,15 +21,23 @@ cd ..
 wget http://download.osgeo.org/gdal/1.11.1/gdal-1.11.1.tar.gz
 tar xvzf gdal-1.11.1.tar.gz
 cd gdal-1.11.1
-./configure --prefix $HOME --with-geosconfig=$HOME/bin/geos-config --with-pg=/p$
+./configure --prefix $HOME --with-geosconfig=$HOME/bin/geos-config
+make && make install
+
+wget http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.5.tar.gz
+tar xvzf spatialindex-src-1.8.5.tar.gz
+cd spatialindex-src-1.8.5
+./configure --prefix $HOME
 make && make install
 
 ```
 
+
+
 ##Shapely, Fiona and pyproj
 
 ```python
-easy_install-2.7 fiona  shapely pyproj #Those dont work with pip on uberspace for permission or otherreasons
+easy_install-2.7 fiona  shapely pyproj rtree#Those dont work with pip on uberspace for permission or otherreasons
 
 ```
 ##Set library paths
