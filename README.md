@@ -24,9 +24,9 @@ cd gdal-1.11.1
 ./configure --prefix $HOME --with-geosconfig=$HOME/bin/geos-config
 make && make install
 
-wget http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.5.tar.gz
-tar xvzf spatialindex-src-1.8.5.tar.gz
-cd spatialindex-src-1.8.5
+wget http://download.osgeo.org/libspatialindex/spatialindex-src-1.7.0.tar.gz
+tar xvzf spatialindex-src-1.7.0.tar.gz
+cd spatialindex-src-1.7.0
 ./configure --prefix $HOME
 make && make install
 
@@ -37,7 +37,7 @@ make && make install
 ##Shapely, Fiona and pyproj
 
 ```python
-pip2.7 install --user fiona  shapely pyproj rtree
+pip2.7 install --user fiona  shapely pyproj rtree==0.7.0
 
 ```
 ##Set library paths
