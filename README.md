@@ -1,7 +1,7 @@
 # Spatial Python on uberspace
 How to get fiona, shapely and other spatial python packages running on uberspace
 
-## Build & install the dependencies: geos, proj, gdal
+## Build & install the dependencies: geos, proj, gdal, spatialindex
 
 ```bash
 #!/bin/bash
